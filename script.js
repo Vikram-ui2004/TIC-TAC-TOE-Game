@@ -1,7 +1,7 @@
 let boxes=document.querySelectorAll(".box");
 let msg=document.querySelector(".msg");
 let reset=document.querySelector("#reset");
-let newgame=document.querySelector("#new");
+
 
 
 let turn0=true;
@@ -75,5 +75,5 @@ let checkwinner=()=>{
     }
 };
 
-newgame.addEventListener("click", resetgame);
+
 reset.addEventListener("click", resetgame);
